@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CVModelStoreContainer" CdmEntityContainer="CVEntities">
+    <EntitySetMapping Name="TBLADMİN">
+      <EntityTypeMapping TypeName="CVModel.TBLADMİN">
+        <MappingFragment StoreEntitySet="TBLADMİN">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KULLANICIADI" ColumnName="KULLANICIADI" />
+          <ScalarProperty Name="SİFRE" ColumnName="SİFRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLDENEYİMLERİM">
+      <EntityTypeMapping TypeName="CVModel.TBLDENEYİMLERİM">
+        <MappingFragment StoreEntitySet="TBLDENEYİMLERİM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
+          <ScalarProperty Name="ALBASLIK" ColumnName="ALBASLIK" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLEGİTİM">
+      <EntityTypeMapping TypeName="CVModel.TBLEGİTİM">
+        <MappingFragment StoreEntitySet="TBLEGİTİM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
+          <ScalarProperty Name="ALTBASLIK1" ColumnName="ALTBASLIK1" />
+          <ScalarProperty Name="ALTBASLIK2" ColumnName="ALTBASLIK2" />
+          <ScalarProperty Name="GNO" ColumnName="GNO" />
+          <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLHAKKIMDA">
+      <EntityTypeMapping TypeName="CVModel.TBLHAKKIMDA">
+        <MappingFragment StoreEntitySet="TBLHAKKIMDA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="ADRES" ColumnName="ADRES" />
+          <ScalarProperty Name="TELEFON" ColumnName="TELEFON" />
+          <ScalarProperty Name="MAİL" ColumnName="MAİL" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="RESİM" ColumnName="RESİM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLHOBİLERİM">
+      <EntityTypeMapping TypeName="CVModel.TBLHOBİLERİM">
+        <MappingFragment StoreEntitySet="TBLHOBİLERİM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ACIKLAMA1" ColumnName="ACIKLAMA1" />
+          <ScalarProperty Name="ACIKLAMA2" ColumnName="ACIKLAMA2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLİLETİSİM">
+      <EntityTypeMapping TypeName="CVModel.TBLİLETİSİM">
+        <MappingFragment StoreEntitySet="TBLİLETİSİM">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ADSOYAD" ColumnName="ADSOYAD" />
+          <ScalarProperty Name="MAİL" ColumnName="MAİL" />
+          <ScalarProperty Name="KONU" ColumnName="KONU" />
+          <ScalarProperty Name="MESAJ" ColumnName="MESAJ" />
+          <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSERTİFİKALARIM">
+      <EntityTypeMapping TypeName="CVModel.TBLSERTİFİKALARIM">
+        <MappingFragment StoreEntitySet="TBLSERTİFİKALARIM">
+          <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLYETENEKLERİM">
+      <EntityTypeMapping TypeName="CVModel.TBLYETENEKLERİM">
+        <MappingFragment StoreEntitySet="TBLYETENEKLERİM">
+          <ScalarProperty Name="ORAN" ColumnName="ORAN" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="YETENEK" ColumnName="YETENEK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSOSYALMEDYA">
+      <EntityTypeMapping TypeName="CVModel.TBLSOSYALMEDYA">
+        <MappingFragment StoreEntitySet="TBLSOSYALMEDYA">
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="ikon" ColumnName="ikon" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
